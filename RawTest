@@ -1,2 +1,1 @@
 <b>Test2!</b>
-<script>alert(document.origin)</script>
