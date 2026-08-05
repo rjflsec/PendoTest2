@@ -21,6 +21,12 @@
                 id: ''
             }
         });
+
+        // Track page visit to validate Pendo integration
+        pendo.track("Page Visited", {
+            page_title: document.title,
+            referrer: document.referrer || "direct"
+        });
     </script>
 </body>
 </html>
